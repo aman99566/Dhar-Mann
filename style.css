@@ -1,0 +1,524 @@
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+        background-color: black;
+        text-transform: uppercase;
+        background-color: rgba(6, 147, 227, 1);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 100px;
+    }
+    
+    .option {
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: white;
+        font-size: 21px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 17px;
+        letter-spacing: -0.7px;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        line-height: 1.5;
+        word-spacing: 1.5px;
+    }
+    
+    .option:hover {
+        text-decoration: underline 2px;
+        color: white;
+    }
+    
+    #logo {
+        padding-top: 51px;
+        padding-left: 80px;
+    }
+    
+    .start:hover {
+        background-color: white;
+        color: #113963;
+    }
+    
+    .start {
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-decoration: none;
+        position: relative;
+        top: -20px;
+        border-radius: 30px 30px;
+        left: -40px;
+        padding: 15px 40px;
+        border: solid white;
+        color: white;
+        letter-spacing: 1.3px;
+    }
+    
+    .dharImg {
+        background-color: #113963;
+        display: flex;
+        justify-content: space-between;
+        height: 702px;
+    }
+    
+    #DharImg {
+        padding-left: 45px;
+        padding-top: 12px;
+    }
+    
+    #Text {
+        position: relative;
+        top: 65px;
+        left: -50px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: white;
+        width: 700px;
+        height: 300px;
+        padding-left: 80px;
+    }
+    
+    #change {
+        letter-spacing: -2.5px;
+        word-spacing: 1.5px;
+        line-height: 3;
+    }
+    
+    #and {
+        letter-spacing: -2.5px;
+        word-spacing: 1px;
+        line-height: 1.5px;
+    }
+    
+    .readMystory {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        border: solid;
+        border-radius: 40px 40px;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        top: 80px;
+        letter-spacing: 1.2px;
+    }
+    
+    .readMystory:hover {
+        background-color: white;
+        color: #113963;
+    }
+    
+    .five-Cards {
+        height: 470px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-transform: uppercase;
+        justify-items: center;
+    }
+    
+    .now {
+        border: solid .1px black;
+        width: 260px;
+        text-align: center;
+    }
+    
+    .cardName {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 30px;
+        font-weight: 800;
+        color: #113963;
+        padding-top: 80px;
+        line-height: 1;
+        text-transform: uppercase;
+        word-spacing: 3px;
+    }
+    
+    .card-a {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 10px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgba(6, 147, 227, 1);
+        border: solid 0.1px rgba(6, 147, 227, 1);
+        border-radius: 40px 40px;
+    }
+    
+    .card-a:hover {
+        background-color: rgba(6, 147, 227, 1);
+        color: white;
+    }
+    
+    .studio {
+        height: 800px;
+        background-color: #6b96c4;
+        color: white;
+        font-weight: 700px;
+    }
+    
+    #dharStudioimg {
+        padding-top: 200px;
+        padding-left: 80px;
+    }
+    
+    .textW1 {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 30px;
+        font-weight: 900;
+        padding: 50px 0px 20px 80px;
+    }
+    
+    .textW2 {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 30px;
+        font-weight: 900;
+        padding: 0px 0px 0px 80px;
+    }
+    
+    .watchVideo {
+        position: relative;
+        top: 30px;
+        left: 80px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 16px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        border: solid 0.1px white;
+        border-radius: 40px 40px;
+    }
+    
+    .watchVideo:hover {
+        background-color: white;
+        color: #113963
+    }
+    
+    .aboutTheStudio {
+        position: relative;
+        top: -51px;
+        left: 340px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 16px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: solid 0.1px white;
+        border-radius: 40px 40px;
+        background-color: white;
+        color: #113963
+    }
+    
+    .aboutTheStudio:hover {
+        background-color: #a5b1bd;
+        color: black;
+    }
+    
+    .twodiv {
+        display: flex;
+        height: 600px;
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    #backstageTwodiv {
+        background-color: #0a223b;
+        color: white;
+        width: 632px;
+        padding-top: 100px;
+    }
+    
+    #shop {
+        background-color: #e6edf2;
+        width: 632px;
+        padding-top: 100px;
+        color: #113963;
+    }
+    
+    .watchVideoBack {
+        position: relative;
+        top: 100px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 16px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        border: solid 3px white;
+        border-radius: 40px 40px;
+        z-index: 100;
+    }
+    
+    .watchVideoBack:hover {
+        background-color: white;
+        color: #113963
+    }
+    
+    .products {
+        position: relative;
+        top: 100px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 16px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        border: solid 3px rgba(6, 147, 227, 1);
+        border-radius: 40px 40px;
+        background-color: rgba(6, 147, 227, 1);
+        z-index: 100;
+    }
+    
+    .products:hover {
+        background-color: #113963;
+        border: solid 3px #113963;
+    }
+    
+    .backstageImg {
+        position: relative;
+        top: -180px;
+    }
+    
+    .shopImg {
+        position: relative;
+        top: -180px;
+    }
+    
+    .backText {
+        position: absolute;
+        top: 2100px;
+        left: 200px;
+        z-index: 100;
+    }
+    
+    .seeText {
+        position: absolute;
+        top: 2180px;
+        left: 100px;
+        z-index: 100;
+    }
+    
+    .shopText {
+        position: absolute;
+        top: 2100px;
+        left: 900px;
+        z-index: 100;
+    }
+    
+    .seeMerch {
+        position: absolute;
+        top: 2180px;
+        left: 750px;
+        z-index: 100;
+    }
+    
+    .social {
+        background-color: #0A1C2F;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #app {
+        padding: 30px 0px 0px 170px;
+    }
+    
+    #now {
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        line-height: 2.3;
+        letter-spacing: .4px;
+        margin-left: 10px;
+    }
+    
+    .appleStore {
+        padding-right: 10px;
+        margin-right: 30px;
+    }
+    
+    .official {
+        letter-spacing: -.5px;
+        word-spacing: -4px;
+    }
+    
+    .googlePlay {
+        padding-right: 10px;
+    }
+    
+    #socialLogo {
+        margin-left: 70px;
+    }
+    
+    #find {
+        margin-left: 150px;
+    }
+    
+    .findText {
+        color: rgba(6, 147, 227, 1);
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: .5px;
+        position: relative;
+        top: -25px;
+    }
+    
+    .mediaLogo {
+        padding-left: 10px;
+        position: relative;
+        left: -20px;
+    }
+    
+    footer {
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(6, 147, 227, 1);
+    }
+    
+    .footer {
+        display: flex;
+    }
+    
+    #first {
+        position: relative;
+        top: 50px;
+        left: 300px;
+        display: flex;
+        width: 700px;
+    }
+    
+    .footerFirst {
+        text-transform: uppercase;
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 18px;
+        padding-left: 30px;
+        text-decoration: none;
+        word-spacing: -1px;
+    }
+    
+    #second {
+        position: relative;
+        top: 80px;
+        left: 380px;
+        display: flex;
+        width: 800px;
+    }
+    
+    .footerSecond {
+        text-transform: uppercase;
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 15px;
+        padding-left: 30px;
+        text-decoration: none;
+        word-spacing: -1px;
+    }
+    
+    #third {
+        position: relative;
+        top: 120px;
+        left: 380px;
+        display: flex;
+        width: 280px;
+        height: 39px;
+        border: solid white;
+        border-radius: 40px 40px;
+        background-color: rgba(6, 147, 227, 1);
+        color: white;
+        padding-left: 10px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 14px;
+    }
+    
+    #third::placeholder {
+        color: #b5b5b5;
+    }
+    
+    #subsc {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 14px;
+        line-height: 5.3;
+        letter-spacing: -.4px;
+        padding: 13px 39px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        border: solid 0.1px white;
+        border-radius: 40px 40px;
+        position: relative;
+        left: 690px;
+        top: 60px;
+    }
+    
+    #subsc:hover {
+        background-color: white;
+        color: #113963
+    }
+    
+    #fourth {
+        position: relative;
+        top: 80px;
+        left: 320px;
+        color: rgb(170, 186, 197);
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 13px;
+        letter-spacing: -.7px;
+        width: 410px;
+        word-spacing: -2px;
+    }
+    
+    #last {
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: 120px;
+        left: 300px;
+    }
+    
+    .lastFooter {
+        display: block;
+        padding-left: 40px;
+        color: rgb(255, 255, 255);
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 13px;
+        letter-spacing: -.7px;
+        text-decoration: none;
+    }
+    
+    #punia {
+        color: #76a4d6;
+    }
+    
+    #terms {
+        color: #c5d9ef;
+    }
+    
+    #privacy {
+        color: #cddbea;
+    }
